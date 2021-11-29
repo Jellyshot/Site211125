@@ -37,10 +37,10 @@ a{
 }
 
 .logo{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
 
     /* 로고를 가운데 넣는 방법 */
 }   
@@ -101,7 +101,45 @@ a{
     border-radius: 4px;
     margin: 5px;
 }
-/* main{
+.main{
+    height: 800px;
     display: flex;
     flex-direction: column;
-} */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer{
+    background-color: rgb(233, 233, 233);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    
+    
+}
+
+.footer1{
+    border-bottom: 1px solid gray;
+    padding: 10px 15px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    list-style: none;
+}
+.left>li {
+    padding: 10px 15px;
+}
+.right{
+    display: flex;
+    list-style: none;
+}
+.right>li {
+    padding: 10px 15px;
+}
